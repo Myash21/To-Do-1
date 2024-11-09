@@ -22,7 +22,6 @@ A simple Todo application built with Flask and SQLAlchemy to help manage tasks. 
 
    ```bash
    git clone https://github.com/Myash21/To-Do-1.git
-   cd todo-app
 
 2. **Build the Docker Image**:
    
