@@ -11,11 +11,33 @@ A simple Todo application built with Flask and SQLAlchemy to help manage tasks. 
 
 ## Prerequisites
 
-- Python 3.x
-- Flask and Flask-SQLAlchemy libraries
+- **Python 3.x** (if running locally)
+- **Docker** (if running in a Docker container)
 
 ## Installation
 
+### Option 1: Running with Docker (Recommended)
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/todo-app.git
+   cd todo-app
+
+2. **Build the Docker Image**:
+   
+   ```bash
+   docker build -t flask-todo-app .
+
+3. **Run the Docker Container**:
+
+    ```bash
+   docker run -p 5000:5000 flask-todo-app
+4. **Access the Application**:
+   Open your web browser and go to http://localhost:5000 to access the app.
+
+### Option 2: Running Locally  
+   
 1. **Clone the repository**:
 
    ```bash
